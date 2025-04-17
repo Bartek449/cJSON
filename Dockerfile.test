@@ -1,0 +1,5 @@
+FROM ubuntu:build
+
+WORKDIR /app/cJSON/build
+
+CMD ["make", "test"]
